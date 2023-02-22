@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    background: url("back1.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 0em;
+    color: white; 
+} */
+
+.container {
+    max-width: 100vw;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    BACKGROUND-COLOR: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    height: 66px;
+  }
+
+.navbar {
+    
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    height: 67px;
+    
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft {
+    width: 50%;
+    
+
+}
+
+.topright {
+    width: 50%;
+    
+}
+
+/* section-1 */
+
+.section1 {
+    /* max-height: 80vh; */
+    padding: 73px;
+    margin-bottom: 10px;
+}
+
+.section1 h1 {
+    font-size: 2rem;
+}
+
+/* section-2 */
+
+.section2 {
+    padding: 73px;
+}
+
+.section2 h1 {
+    font-size: 2.3rem;
+}
+
+.section2 p {
+    text-align: center;
+    padding: 0 8vw;
+}
+
+.logo {
+    padding: 17px;
+    font-size: 1.5rem;
+}
+
+.dumbell {
+    width: 155px;
+}
+
+.topright .gymimage {
+    width: 466px;
+}
+
+.box {
+    padding: 8px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(234, 41, 41);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 2rem;
+    padding: 12px 0;
+}
+
+.box ul {
+    list-style: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.plantable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* section-3 */
+
+.section3 table {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th {
+    width: 23vw;
+    padding: 15px 0;
+    border-bottom: 2px solid black;
+}
+
+.section3 table td {
+   
+    border-bottom: 2px solid black;
+}
+
+.section3 h1 {
+    font-size: 2.3rem;
+}
+
+.section3 {
+    padding: 73px;
+}
+
+footer{
+    background-color: aquamarine;
+    padding: 23px;
+    text-align: center;
+    position: sticky;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    bottom: 0px;  
+}
+
+.logo{
+    height: 25px;
+}
